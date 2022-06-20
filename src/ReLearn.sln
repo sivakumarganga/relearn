@@ -22,6 +22,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "sort", "sort", "{7638D600-1
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReLearn.Algo.Search", "algo\search\ReLearn.Algo.Search\ReLearn.Algo.Search.csproj", "{7AFBC179-B3FA-4519-98C4-80252692CC80}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReLearn.Alog.Sort", "algo\sort\ReLearn.Alog.Sort\ReLearn.Alog.Sort.csproj", "{C785831C-6448-4564-8431-71063F0646AE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,6 +38,10 @@ Global
 		{7AFBC179-B3FA-4519-98C4-80252692CC80}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7AFBC179-B3FA-4519-98C4-80252692CC80}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7AFBC179-B3FA-4519-98C4-80252692CC80}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C785831C-6448-4564-8431-71063F0646AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C785831C-6448-4564-8431-71063F0646AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C785831C-6448-4564-8431-71063F0646AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C785831C-6448-4564-8431-71063F0646AE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -45,6 +51,7 @@ Global
 		{8375F82C-B574-4A46-A8DA-C1B772EC377D} = {093B3469-4519-4D77-9E82-D7C02CA0D84C}
 		{7638D600-177D-48F4-87DB-665566E62F41} = {9569E373-0091-412A-AB20-AF758A1B644F}
 		{7AFBC179-B3FA-4519-98C4-80252692CC80} = {1A3BBBA6-0CB7-4B9D-9589-C2EDB55659AE}
+		{C785831C-6448-4564-8431-71063F0646AE} = {7638D600-177D-48F4-87DB-665566E62F41}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {CFE67CB8-7AAC-4F92-8E01-511AABBE7414}
