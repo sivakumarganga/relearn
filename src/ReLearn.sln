@@ -13,12 +13,25 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ds", "ds", "{A4290E9E-1D9B-
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "search", "search", "{1A3BBBA6-0CB7-4B9D-9589-C2EDB55659AE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReLearn.Challenges", "challenges\ReLearn.Challenges\ReLearn.Challenges.csproj", "{8375F82C-B574-4A46-A8DA-C1B772EC377D}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8375F82C-B574-4A46-A8DA-C1B772EC377D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8375F82C-B574-4A46-A8DA-C1B772EC377D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8375F82C-B574-4A46-A8DA-C1B772EC377D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8375F82C-B574-4A46-A8DA-C1B772EC377D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{1A3BBBA6-0CB7-4B9D-9589-C2EDB55659AE} = {9569E373-0091-412A-AB20-AF758A1B644F}
+		{8375F82C-B574-4A46-A8DA-C1B772EC377D} = {093B3469-4519-4D77-9E82-D7C02CA0D84C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {CFE67CB8-7AAC-4F92-8E01-511AABBE7414}
