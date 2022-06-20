@@ -6,6 +6,9 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "algo", "algo", "{9569E373-0091-412A-AB20-AF758A1B644F}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "challenges", "challenges", "{093B3469-4519-4D77-9E82-D7C02CA0D84C}"
+	ProjectSection(SolutionItems) = preProject
+		gist.txt = gist.txt
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "dp", "dp", "{DF7F8293-78AE-4F68-881D-9795E6D7C187}"
 EndProject
@@ -14,6 +17,10 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "search", "search", "{1A3BBBA6-0CB7-4B9D-9589-C2EDB55659AE}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReLearn.Challenges", "challenges\ReLearn.Challenges\ReLearn.Challenges.csproj", "{8375F82C-B574-4A46-A8DA-C1B772EC377D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "sort", "sort", "{7638D600-177D-48F4-87DB-665566E62F41}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReLearn.Algo.Search", "algo\search\ReLearn.Algo.Search\ReLearn.Algo.Search.csproj", "{7AFBC179-B3FA-4519-98C4-80252692CC80}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,6 +32,10 @@ Global
 		{8375F82C-B574-4A46-A8DA-C1B772EC377D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8375F82C-B574-4A46-A8DA-C1B772EC377D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8375F82C-B574-4A46-A8DA-C1B772EC377D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7AFBC179-B3FA-4519-98C4-80252692CC80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7AFBC179-B3FA-4519-98C4-80252692CC80}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7AFBC179-B3FA-4519-98C4-80252692CC80}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7AFBC179-B3FA-4519-98C4-80252692CC80}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -32,6 +43,8 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{1A3BBBA6-0CB7-4B9D-9589-C2EDB55659AE} = {9569E373-0091-412A-AB20-AF758A1B644F}
 		{8375F82C-B574-4A46-A8DA-C1B772EC377D} = {093B3469-4519-4D77-9E82-D7C02CA0D84C}
+		{7638D600-177D-48F4-87DB-665566E62F41} = {9569E373-0091-412A-AB20-AF758A1B644F}
+		{7AFBC179-B3FA-4519-98C4-80252692CC80} = {1A3BBBA6-0CB7-4B9D-9589-C2EDB55659AE}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {CFE67CB8-7AAC-4F92-8E01-511AABBE7414}
