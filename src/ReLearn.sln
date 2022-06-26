@@ -16,13 +16,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ds", "ds", "{A4290E9E-1D9B-
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "search", "search", "{1A3BBBA6-0CB7-4B9D-9589-C2EDB55659AE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReLearn.Challenges", "challenges\ReLearn.Challenges\ReLearn.Challenges.csproj", "{8375F82C-B574-4A46-A8DA-C1B772EC377D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReLearn.Challenges", "challenges\ReLearn.Challenges\ReLearn.Challenges.csproj", "{8375F82C-B574-4A46-A8DA-C1B772EC377D}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "sort", "sort", "{7638D600-177D-48F4-87DB-665566E62F41}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReLearn.Algo.Search", "algo\search\ReLearn.Algo.Search\ReLearn.Algo.Search.csproj", "{7AFBC179-B3FA-4519-98C4-80252692CC80}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReLearn.Algo.Search", "algo\search\ReLearn.Algo.Search\ReLearn.Algo.Search.csproj", "{7AFBC179-B3FA-4519-98C4-80252692CC80}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReLearn.Alog.Sort", "algo\sort\ReLearn.Alog.Sort\ReLearn.Alog.Sort.csproj", "{C785831C-6448-4564-8431-71063F0646AE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReLearn.Alog.Sort", "algo\sort\ReLearn.Alog.Sort\ReLearn.Alog.Sort.csproj", "{C785831C-6448-4564-8431-71063F0646AE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Relearn.DP", "dp\Relearn.DP\Relearn.DP.csproj", "{3A03D53E-01E2-4FBC-AE36-D07DBE205E8D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -42,6 +44,10 @@ Global
 		{C785831C-6448-4564-8431-71063F0646AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C785831C-6448-4564-8431-71063F0646AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C785831C-6448-4564-8431-71063F0646AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A03D53E-01E2-4FBC-AE36-D07DBE205E8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A03D53E-01E2-4FBC-AE36-D07DBE205E8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A03D53E-01E2-4FBC-AE36-D07DBE205E8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A03D53E-01E2-4FBC-AE36-D07DBE205E8D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -52,6 +58,7 @@ Global
 		{7638D600-177D-48F4-87DB-665566E62F41} = {9569E373-0091-412A-AB20-AF758A1B644F}
 		{7AFBC179-B3FA-4519-98C4-80252692CC80} = {1A3BBBA6-0CB7-4B9D-9589-C2EDB55659AE}
 		{C785831C-6448-4564-8431-71063F0646AE} = {7638D600-177D-48F4-87DB-665566E62F41}
+		{3A03D53E-01E2-4FBC-AE36-D07DBE205E8D} = {DF7F8293-78AE-4F68-881D-9795E6D7C187}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {CFE67CB8-7AAC-4F92-8E01-511AABBE7414}
