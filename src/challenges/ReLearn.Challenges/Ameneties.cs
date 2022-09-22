@@ -13,6 +13,7 @@ Blocks = [
 "gym": true, "school": true, "store": false,
 "gym": false, "school": true, "store": false,
 "gym": false, "school": true, "store": true,
+    https://www.youtube.com/watch?v=rw4s4M3hFfs
      */
     public class Ameneties
     {
