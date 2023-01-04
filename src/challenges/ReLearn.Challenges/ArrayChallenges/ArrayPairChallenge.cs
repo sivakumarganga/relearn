@@ -14,7 +14,6 @@ namespace ReLearn.Challenges.ArrayChallenges
         ///            # write a method accepts an array/list of ints
         ///            # second integer parameter
         ///# return all pairs separated by the value of the second int parameter (step)
-
         /// </summary>
         public static void PrintPairs(int[] dataInputs, int step)
         {
