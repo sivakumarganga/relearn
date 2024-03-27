@@ -11,8 +11,8 @@ namespace Relearn.Os.DeadLockApp
         private static readonly object _lock1 = new();
         private static readonly object _lock2 = new();
 
- 
-        public async static Task LockThread(CancellationToken cancellationToken)
+
+        public async static Task RunTheTasks(CancellationToken cancellationToken)
         {
             var task1 = Task.Run(() =>
             {
@@ -47,7 +47,25 @@ namespace Relearn.Os.DeadLockApp
             }, cancellationToken);
 
             Task.WaitAll(task1, task2);
+            await Task.CompletedTask;
+        }
+        public async static Task RunTheTasksStart(CancellationToken cancellationToken)
+        {
+            Task.Run(() => {
+                while (true)
+                {
+                    if (cancellationToken.IsCancellationRequested)
+                    {
+                        Console.WriteLine("Cancelled");
+                        return;
+                    }
+                    Console.WriteLine("Running");
+                    Thread.Sleep(1000);
+                }
+            });
+            
 
+            //Task.WaitAll(task1, task2);
             await Task.CompletedTask;
         }
     }
