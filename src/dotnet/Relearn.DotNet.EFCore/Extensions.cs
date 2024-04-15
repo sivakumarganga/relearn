@@ -128,7 +128,7 @@ namespace Relearn.DotNet.EFCore
                             }
                         };
 
-                    foreach (var userRole in userRoles)
+                    foreach (var userRole in userRoles.Where(_=>_.UserId>0))
                     {
                         if (!await dbSetUserRoles.AnyAsync(_ => _.UserId == userRole.UserId && _.RoleId == userRole.RoleId))
                         {
