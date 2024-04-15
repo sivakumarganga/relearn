@@ -15,8 +15,8 @@ IHostBuilder builder = Host.CreateDefaultBuilder(args)
         services.AddHostedService<AppServiceWorker>();
     });
 var host = builder.Build();
-await host.ApplyMigrationsAsync();
-await host.SeedDefaultDataAsync();
+//await host.ApplyMigrationsAsync();
+//await host.SeedDefaultDataAsync();
 await host.RunAsync();
 
 

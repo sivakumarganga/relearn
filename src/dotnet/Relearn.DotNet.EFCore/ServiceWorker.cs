@@ -1,4 +1,5 @@
-﻿using Microsoft.Extensions.Hosting;
+﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Hosting;
 using Relearn.DotNet.EFCore.Entities;
 using System;
 using System.Collections.Generic;
@@ -19,6 +20,11 @@ namespace Relearn.DotNet.EFCore
         {
             Console.WriteLine("Service started");
             var userRole = _dbContext.Set<UserRole>().Where(_=>_.User.Username == "admin").FirstOrDefault();
+            var userProfile= _dbContext.Set<UserProfile>().Where(_=>_.User.Username == "admin").FirstOrDefault();
+            var userProfileWithUser= _dbContext.Set<UserProfile>().Include(_=>_.User).Where(_=>_.User.Username == "admin").FirstOrDefault();
+            var userProfileWithUserNavigation= _dbContext.Set<UserProfile>().Include("User").Where(_=>_.User.Username == "admin").FirstOrDefault();
+            var userProfileWithUserRole= _dbContext.Set<UserProfile>().Include(_=>_.User.UserRoles).Where(_=>_.User.Username == "admin").FirstOrDefault();
+            var userRolesByeProfileId= _dbContext.Set<UserProfile>().Where(_=>_.UserId==10).Join(_dbContext.Set<UserRole>().Where(_=>_.RoleId==11), _=>_.UserId, _=>_.UserId, (profile, role)=> new {profile, role}).ToList();
             await Task.CompletedTask;
         }
 

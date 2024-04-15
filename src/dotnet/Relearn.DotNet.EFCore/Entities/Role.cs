@@ -11,5 +11,7 @@ namespace Relearn.DotNet.EFCore.Entities
         public string Name { get; set; }
         public string Description { get; set; }
         public Role() { }
+
+        public virtual ICollection<UserRole> UserRoles { get; set; }
     }
 }
