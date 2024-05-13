@@ -54,9 +54,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Relearn.DotNet.EFCore", "do
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Relearn.DotNet.Cultures", "dotnet\Relearn.DotNet.Cultures\Relearn.DotNet.Cultures.csproj", "{93CFC259-60FF-4408-AF76-5F9BDB9CBE48}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Relearn.DotNet.JWTGen", "dotnet\Relearn.DotNet.JWTGen\Relearn.DotNet.JWTGen.csproj", "{B3719056-2106-4D45-A124-64622ED52B5E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Relearn.DotNet.JWTGen", "dotnet\Relearn.DotNet.JWTGen\Relearn.DotNet.JWTGen.csproj", "{B3719056-2106-4D45-A124-64622ED52B5E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Relearn.DotNet.PollyPlay", "dotnet\Relearn.DotNet.PollyPlay\Relearn.DotNet.PollyPlay.csproj", "{E38ED568-B143-4D06-9457-073B9D0ED845}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Relearn.DotNet.Logging", "dotnet\Relearn.DotNet.Logging\Relearn.DotNet.Logging.csproj", "{047E3A2A-F773-4447-8924-0BDC1091C126}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -136,6 +138,10 @@ Global
 		{E38ED568-B143-4D06-9457-073B9D0ED845}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E38ED568-B143-4D06-9457-073B9D0ED845}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E38ED568-B143-4D06-9457-073B9D0ED845}.Release|Any CPU.Build.0 = Release|Any CPU
+		{047E3A2A-F773-4447-8924-0BDC1091C126}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{047E3A2A-F773-4447-8924-0BDC1091C126}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{047E3A2A-F773-4447-8924-0BDC1091C126}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{047E3A2A-F773-4447-8924-0BDC1091C126}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -161,6 +167,7 @@ Global
 		{93CFC259-60FF-4408-AF76-5F9BDB9CBE48} = {6BCD4F7A-56BE-4841-9FD8-2180A74F9293}
 		{B3719056-2106-4D45-A124-64622ED52B5E} = {6BCD4F7A-56BE-4841-9FD8-2180A74F9293}
 		{E38ED568-B143-4D06-9457-073B9D0ED845} = {6BCD4F7A-56BE-4841-9FD8-2180A74F9293}
+		{047E3A2A-F773-4447-8924-0BDC1091C126} = {6BCD4F7A-56BE-4841-9FD8-2180A74F9293}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {CFE67CB8-7AAC-4F92-8E01-511AABBE7414}
