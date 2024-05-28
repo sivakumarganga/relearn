@@ -54,17 +54,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Relearn.DotNet.JWTGen", "do
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Relearn.DotNet.PollyPlay", "dotnet\Relearn.DotNet.PollyPlay\Relearn.DotNet.PollyPlay.csproj", "{E38ED568-B143-4D06-9457-073B9D0ED845}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Relearn.DotNet.Logging", "dotnet\Relearn.DotNet.Logging\Relearn.DotNet.Logging.csproj", "{047E3A2A-F773-4447-8924-0BDC1091C126}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Relearn.DotNet.Logging", "dotnet\Relearn.DotNet.Logging\Relearn.DotNet.Logging.csproj", "{047E3A2A-F773-4447-8924-0BDC1091C126}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "unittests", "unittests", "{7D6FB4FC-8FF0-4317-B7AB-BB85EA92A0DA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Relearn.UnitTests.ConsoleApp", "unittests\Relearn.UnitTests.ConsoleApp\Relearn.UnitTests.ConsoleApp.csproj", "{B356053F-F39F-4A36-B6D0-E7710BBF9691}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Relearn.UnitTests.ConsoleApp", "unittests\Relearn.UnitTests.ConsoleApp\Relearn.UnitTests.ConsoleApp.csproj", "{B356053F-F39F-4A36-B6D0-E7710BBF9691}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Relearn.Os.DeadLockApp", "os\Relearn.Os.DeadLockApp\Relearn.Os.DeadLockApp.csproj", "{ACD4A266-C51A-4FC4-8BBD-D949AA610D62}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Relearn.Os.MemoryLeaks", "os\Relearn.Os.MemoryLeaks\Relearn.Os.MemoryLeaks.csproj", "{597314B3-8E26-49A2-A97A-66666A6A9E06}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Relearn.UnitTests.ConsoleApp.UnitTests", "unittests\Relearn.UnitTests.ConsoleApp.UnitTests\Relearn.UnitTests.ConsoleApp.UnitTests.csproj", "{54BBCE0A-6D09-43D1-B35D-68906BADCABA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Relearn.UnitTests.ConsoleApp.UnitTests", "unittests\Relearn.UnitTests.ConsoleApp.UnitTests\Relearn.UnitTests.ConsoleApp.UnitTests.csproj", "{54BBCE0A-6D09-43D1-B35D-68906BADCABA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Relearn.DotNet.RecordVsClass", "dotnet\Relearn.DotNet.RecordVsClass\Relearn.DotNet.RecordVsClass.csproj", "{21263CE0-1813-4513-8EBE-6BB7165566D2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -156,6 +158,10 @@ Global
 		{54BBCE0A-6D09-43D1-B35D-68906BADCABA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{54BBCE0A-6D09-43D1-B35D-68906BADCABA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{54BBCE0A-6D09-43D1-B35D-68906BADCABA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21263CE0-1813-4513-8EBE-6BB7165566D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21263CE0-1813-4513-8EBE-6BB7165566D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21263CE0-1813-4513-8EBE-6BB7165566D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21263CE0-1813-4513-8EBE-6BB7165566D2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -184,6 +190,7 @@ Global
 		{ACD4A266-C51A-4FC4-8BBD-D949AA610D62} = {0A4AAE1C-88FA-4C60-A923-A37804FA68D6}
 		{597314B3-8E26-49A2-A97A-66666A6A9E06} = {0A4AAE1C-88FA-4C60-A923-A37804FA68D6}
 		{54BBCE0A-6D09-43D1-B35D-68906BADCABA} = {7D6FB4FC-8FF0-4317-B7AB-BB85EA92A0DA}
+		{21263CE0-1813-4513-8EBE-6BB7165566D2} = {6BCD4F7A-56BE-4841-9FD8-2180A74F9293}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {CFE67CB8-7AAC-4F92-8E01-511AABBE7414}
