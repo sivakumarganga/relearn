@@ -68,6 +68,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Relearn.UnitTests.ConsoleAp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Relearn.DotNet.RecordVsClass", "dotnet\Relearn.DotNet.RecordVsClass\Relearn.DotNet.RecordVsClass.csproj", "{21263CE0-1813-4513-8EBE-6BB7165566D2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Relearn.DotNet.WebListener", "dotnet\Relearn.DotNet.WebListener\Relearn.DotNet.WebListener.csproj", "{0A20E079-92BE-4B4B-9C52-4170511FF135}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -162,6 +164,10 @@ Global
 		{21263CE0-1813-4513-8EBE-6BB7165566D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{21263CE0-1813-4513-8EBE-6BB7165566D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{21263CE0-1813-4513-8EBE-6BB7165566D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A20E079-92BE-4B4B-9C52-4170511FF135}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A20E079-92BE-4B4B-9C52-4170511FF135}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A20E079-92BE-4B4B-9C52-4170511FF135}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A20E079-92BE-4B4B-9C52-4170511FF135}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -191,6 +197,7 @@ Global
 		{597314B3-8E26-49A2-A97A-66666A6A9E06} = {0A4AAE1C-88FA-4C60-A923-A37804FA68D6}
 		{54BBCE0A-6D09-43D1-B35D-68906BADCABA} = {7D6FB4FC-8FF0-4317-B7AB-BB85EA92A0DA}
 		{21263CE0-1813-4513-8EBE-6BB7165566D2} = {6BCD4F7A-56BE-4841-9FD8-2180A74F9293}
+		{0A20E079-92BE-4B4B-9C52-4170511FF135} = {6BCD4F7A-56BE-4841-9FD8-2180A74F9293}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {CFE67CB8-7AAC-4F92-8E01-511AABBE7414}
