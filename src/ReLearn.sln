@@ -66,9 +66,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Relearn.Os.MemoryLeaks", "o
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Relearn.UnitTests.ConsoleApp.UnitTests", "unittests\Relearn.UnitTests.ConsoleApp.UnitTests\Relearn.UnitTests.ConsoleApp.UnitTests.csproj", "{54BBCE0A-6D09-43D1-B35D-68906BADCABA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Relearn.DotNet.RecordVsClass", "dotnet\Relearn.DotNet.RecordVsClass\Relearn.DotNet.RecordVsClass.csproj", "{21263CE0-1813-4513-8EBE-6BB7165566D2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Relearn.DotNet.RecordVsClass", "dotnet\Relearn.DotNet.RecordVsClass\Relearn.DotNet.RecordVsClass.csproj", "{21263CE0-1813-4513-8EBE-6BB7165566D2}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Relearn.DotNet.WebListener", "dotnet\Relearn.DotNet.WebListener\Relearn.DotNet.WebListener.csproj", "{0A20E079-92BE-4B4B-9C52-4170511FF135}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Relearn.DotNet.ReflectionPlayGround", "dotnet\Relearn.DotNet.ReflectionPlayGround\Relearn.DotNet.ReflectionPlayGround.csproj", "{34D6356C-58B7-46A7-BEA2-C045256C132A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -168,6 +170,10 @@ Global
 		{0A20E079-92BE-4B4B-9C52-4170511FF135}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0A20E079-92BE-4B4B-9C52-4170511FF135}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0A20E079-92BE-4B4B-9C52-4170511FF135}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34D6356C-58B7-46A7-BEA2-C045256C132A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34D6356C-58B7-46A7-BEA2-C045256C132A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34D6356C-58B7-46A7-BEA2-C045256C132A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34D6356C-58B7-46A7-BEA2-C045256C132A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -198,6 +204,7 @@ Global
 		{54BBCE0A-6D09-43D1-B35D-68906BADCABA} = {7D6FB4FC-8FF0-4317-B7AB-BB85EA92A0DA}
 		{21263CE0-1813-4513-8EBE-6BB7165566D2} = {6BCD4F7A-56BE-4841-9FD8-2180A74F9293}
 		{0A20E079-92BE-4B4B-9C52-4170511FF135} = {6BCD4F7A-56BE-4841-9FD8-2180A74F9293}
+		{34D6356C-58B7-46A7-BEA2-C045256C132A} = {6BCD4F7A-56BE-4841-9FD8-2180A74F9293}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {CFE67CB8-7AAC-4F92-8E01-511AABBE7414}

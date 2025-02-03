@@ -67,6 +67,27 @@ namespace Relearn.DotNet.WebListener
                                 new StreamWriter(context.Response.OutputStream)
                             )
                             {
+                                if(context.Request.RawUrl == "/index.html")
+                                {
+                                    var htmlContext = "<html><body><h1>Welcome web world</h1><p style='color:red;'>This is a simple web server</p>";
+                                    writer.WriteLineAsync(htmlContext);
+                                    return;
+                                }
+                                if(context.Request.Url!.AbsolutePath=="/api/calculator")
+                                {
+                                    var queryDictionary = context.Request.QueryString;
+                                    var a = Convert.ToInt32(queryDictionary["a"]);
+                                    var b = Convert.ToInt32(queryDictionary["b"]);
+                                    var result = a + b;
+                                    writer.WriteLineAsync(result.ToString());
+                                    return;
+                                }
+                                if(context.Request.RawUrl== "/api/message")
+                                {
+                                    var jsonContext = "{\"message\":\"Welcome web world\",\"description\":\"This is a simple web server\"}";
+                                    writer.WriteLineAsync(jsonContext);
+                                    return;
+                                }
                                 writer.WriteLineAsync("Welcome web world");
                                 writer.WriteLineAsync("This is a simple web server");
                                 writer.WriteLineAsync($"Request url: {context.Request.RawUrl}");
@@ -78,6 +99,7 @@ namespace Relearn.DotNet.WebListener
                                 writer.WriteLineAsync($"Request protocol: {context.Request.ProtocolVersion}");
                                 writer.WriteLineAsync($"Request content type: {context.Request.ContentType}");
                                 writer.WriteLineAsync($"Request user agent: {context.Request.UserAgent}");
+                              
                             }
                             Console.WriteLine("----------------------END------------------------");
                         },
